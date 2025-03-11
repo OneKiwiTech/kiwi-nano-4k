@@ -110,7 +110,8 @@ end
 assign  running = (run_cnt < 32'd13_500_000) ? 1'b1 : 1'b0;
 
 assign  O_led[0] = running;
-assign  O_led[1] = ~init_calib;
+assign  O_led[1] = ~O_led[0];
+//assign  O_led[1] = ~init_calib;
 
 assign  XCLK = clk_12M;
 

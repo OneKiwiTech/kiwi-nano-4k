@@ -1,0 +1,140 @@
+[
+ {
+  "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+  "InstLine" : 1,
+  "InstName" : "video_top",
+  "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 120,
+    "InstName" : "testpattern_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/testpattern.v",
+    "ModuleLine" : 17,
+    "ModuleName" : "testpattern"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 165,
+    "InstName" : "u_Reset_Sync",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "ModuleLine" : 374,
+    "ModuleName" : "Reset_Sync"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 172,
+    "InstName" : "u_OV2640_Controller",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/ov2640/OV2640_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV2640_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 30,
+      "InstName" : "LUT",
+      "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/ov2640/OV2640_Registers.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV2640_Registers"
+     },
+     {
+      "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/ov2640/OV2640_Controller.v",
+      "InstLine" : 41,
+      "InstName" : "I2C",
+      "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/ov2640/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 213,
+    "InstName" : "key_flag_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "ModuleLine" : 393,
+    "ModuleName" : "key_flag"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 222,
+    "InstName" : "Video_Frame_Buffer_Top_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_frame_buffer/video_frame_buffer.v",
+    "ModuleLine" : 3014,
+    "ModuleName" : "Video_Frame_Buffer_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_frame_buffer/video_frame_buffer.v",
+      "InstLine" : 3065,
+      "InstName" : "vfb_hyperram_wrapper_inst",
+      "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_frame_buffer/video_frame_buffer.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~vfb_hyperram_wrapper.Video_Frame_Buffer_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 254,
+    "InstName" : "GW_PLLVR_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/gowin_pllvr/GW_PLLVR.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "GW_PLLVR"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 261,
+    "InstName" : "HyperRAM_Memory_Interface_Top_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/hyperram_memory_interface/hyperram_memory_interface.v",
+    "ModuleLine" : 3735,
+    "ModuleName" : "HyperRAM_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "InstLine" : 3810,
+      "InstName" : "u_hpram_top",
+      "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/hyperram_memory_interface/hyperram_memory_interface.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "~hpram_top.HyperRAM_Memory_Interface_Top_"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 286,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/syn_code/syn_gen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 338,
+    "InstName" : "TMDS_PLLVR_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/gowin_pllvr/TMDS_PLLVR.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "TMDS_PLLVR"
+   },
+   {
+    "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/video_top.v",
+    "InstLine" : 355,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/dvi_tx/dvi_tx.v",
+    "ModuleLine" : 1048,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/dvi_tx/dvi_tx.v",
+      "InstLine" : 1079,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "/home/thanhduong/working/git/kiwi-nano-4k/camera_hdmi/src/dvi_tx/dvi_tx.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~rgb2dvi.DVI_TX_Top"
+     }
+    ]
+   }
+  ]
+ }
+]
